@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-22T18:51:54 IST" name="Suite" finished-at="2021-12-22T18:51:57 IST" duration-ms="3167">
+    <groups>
+    </groups>
+    <test started-at="2021-12-22T18:51:54 IST" name="Test" finished-at="2021-12-22T18:51:57 IST" duration-ms="3167">
+      <class name="scripts.postuser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.postuser@28f2a10f]" started-at="2021-12-22T18:51:57 IST" name="setUp" finished-at="2021-12-22T18:51:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="register_user()[pri:0, instance:scripts.postuser@28f2a10f]" started-at="2021-12-22T18:51:57 IST" name="register_user" finished-at="2021-12-22T18:51:57 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+      </class> <!-- scripts.postuser -->
+      <class name="scripts.login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.login@47faa49c]" started-at="2021-12-22T18:51:57 IST" name="setUp" finished-at="2021-12-22T18:51:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="register_user()[pri:0, instance:scripts.login@47faa49c]" started-at="2021-12-22T18:51:57 IST" name="register_user" finished-at="2021-12-22T18:51:57 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register_user -->
+      </class> <!-- scripts.login -->
+      <class name="scripts.getFlights">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.getFlights@73e22a3d]" started-at="2021-12-22T18:51:57 IST" name="setUp" finished-at="2021-12-22T18:51:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Getflights()[pri:0, instance:scripts.getFlights@73e22a3d]" started-at="2021-12-22T18:51:57 IST" name="Getflights" finished-at="2021-12-22T18:51:57 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getflights -->
+      </class> <!-- scripts.getFlights -->
+      <class name="scripts.completebooking">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.completebooking@16610890]" started-at="2021-12-22T18:51:54 IST" name="setUp" finished-at="2021-12-22T18:51:54 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="complete_booking()[pri:0, instance:scripts.completebooking@16610890]" started-at="2021-12-22T18:51:54 IST" name="complete_booking" finished-at="2021-12-22T18:51:57 IST" duration-ms="2529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- complete_booking -->
+      </class> <!-- scripts.completebooking -->
+      <class name="scripts.getbookflights">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:scripts.getbookflights@3232a28a]" started-at="2021-12-22T18:51:57 IST" name="setUp" finished-at="2021-12-22T18:51:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Getflight_details()[pri:0, instance:scripts.getbookflights@3232a28a]" started-at="2021-12-22T18:51:57 IST" name="Getflight_details" finished-at="2021-12-22T18:51:57 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getflight_details -->
+      </class> <!-- scripts.getbookflights -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
